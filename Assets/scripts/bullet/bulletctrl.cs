@@ -14,9 +14,4 @@ public class bulletctrl : MonoBehaviour
         GetComponent<Rigidbody>().AddForce(transform.forward * speed);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
